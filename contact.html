@@ -5,6 +5,7 @@
   
     <style>
         body{
+            background-color: #121212;
             color:white;
             font-family: monospace;
         }
@@ -24,7 +25,7 @@
     }
     .cont{
         text-align: center;
-        font-size: 20px;
+        font-size: 25px;
         border-radius: 30px;
         border: 2px solid rgb(57,255,30);
         margin-right: 500px;
@@ -33,6 +34,43 @@
     .home{
         font-family: monospace;
     }
+
+    .box, .b2{
+        font-family: monospace;
+        background-color: chartreuse;
+    
+         display: block;
+         
+       width: 85%;
+        padding:25px ;
+        border-radius:30px ;
+        font-size: 20px;
+        
+    }
+  .box{ margin-bottom: 15px;}
+  .all{
+    border: 2px solid rgb(57,255,30);
+    border-radius: 30px;
+     margin-left: 550px;
+     padding: 25px;
+     margin-top: 100px;
+       width: 25%;
+  }
+  .but{
+    margin-top: 25px;
+    border-radius: 30px;
+    margin-left: 690px;
+    width: 9%;
+    padding: 15px;
+    background-color:aqua;
+    font-family: monospace;
+    font-size: 15px;
+  }
+  .who{
+    border: 2px solid rgb(57,255,30);
+    border-radius: 30px;
+
+  }
     
 
     </style>
@@ -41,18 +79,21 @@
         <div class="cont" >
             <h1> CONTACTS</h1>
         </div>
+        
         <div class="home"><a href="index.html">HOME</a></div>
-   <body style="background-color: #121212;">
-    <div class="det">
-  <ul><li><h2>PHONE NUMBER:6364331410</h2></li>
-   <br><li><h2>EMAIL:koushiknaik006@gmail.com</h2></li></ul> </div>
-
-
-
-
-
-
-
-
+       <div class="who">
+       <div class="all"><input  class="box"
+         type="text"
+         id="name"
+        placeholder="ENTER YOUR NAME"
+        >
+        <input class="b2"
+        type="email"
+        id="email"
+        placeholder="ENTER YOUR EMAIL">
+        
+  </div>
+<button class="but" >SUBMIT</button>
+</div>
     </body>
 </html>
